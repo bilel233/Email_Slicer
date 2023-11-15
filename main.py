@@ -1,3 +1,6 @@
+import smtplib
+from email.mime.text import MIMEText      #bibliotheques pour envoyer un message à une adresse email
+
 print("=========================================")
 
 ############## Projet Email Slicer ##############
