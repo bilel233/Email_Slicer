@@ -19,3 +19,15 @@ def mail(mailContent):
 print(mail("yoh@mail.com"))
 print(mail("personne@mail.com"))
 
+#################################################
+
+# creation du message
+
+message = MIMEText("Ceci est un message")
+message['Subject'] = "Sujet du message"
+message['From'] = "bilel.mjdb@gmail.com"
+message['To'] = "bilel.mjdb@gmail.com"
+
+
+
+
